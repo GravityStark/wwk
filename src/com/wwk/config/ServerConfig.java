@@ -3,7 +3,7 @@ package com.wwk.config;
  * 配置数据
  * @author LiuWei
  *
- */
+ */ 
 public class ServerConfig {
 	public static String HOST = "192.168.0.222";
 	public static int PORT = 28000;
