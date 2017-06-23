@@ -1,5 +1,7 @@
 package com.wwk.action.core;
 
+import com.wwk.model.core.ConnectSession;
+
 public interface Action {
-	void done();
+	void run(ConnectSession session) throws Exception;
 }
